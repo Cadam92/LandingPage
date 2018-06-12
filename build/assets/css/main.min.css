@@ -344,19 +344,25 @@ hr {
   left: 0; }
 
 #header {
-  background: url("../img/DI_splash.jpg") no-repeat;
+  background: url("../img/DI_splash.jpg") no-repeat 0;
   background-size: cover;
-  height: 80vh;
+  height: 70vh;
   text-align: center;
-  color: white; }
+  color: white;
+  text-transform: uppercase;
+  overflow: auto; }
+  #header h2 {
+    color: white; }
   #header article {
-    width: 80%;
-    margin: 0 auto;
-    background: red; }
+    width: 60%;
+    margin: 0 auto; }
+    #header article img {
+      width: 500px;
+      max-width: 100%; }
 
 .main-nav {
   display: flex;
-  padding: 0;
+  padding: 10px;
   margin-top: 20px; }
   .main-nav li {
     list-style: none; }
@@ -366,12 +372,13 @@ hr {
     color: white;
     display: block;
     border-radius: 4px;
-    padding: 10px 40px;
-    text-decoration: none;
-    text-transform: uppercase; }
+    padding: 10px 30px;
+    text-decoration: none; }
+  .main-nav img {
+    margin-top: -10px;
+    max-width: 60%; }
 
-a.download {
-  background: white;
-  color: #00adff;
+a.ideas {
+  border: solid white 2px;
   box-shadow: 0 12px 10px -10px rgba(0, 0, 0, 0.2);
   margin-left: 25px; }
