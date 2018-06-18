@@ -8,6 +8,15 @@ html {
 body {
   margin: 0;
   padding: 0; }
+  body p {
+    font-size: 1.33rem;
+    color: #5E8EAB; }
+  body h3 {
+    font-size: 2.16rem; }
+  body h2 {
+    font-size: 3.5rem; }
+  body h1 {
+    font-size: 5.66rem; }
 
 article,
 aside,
@@ -351,14 +360,15 @@ hr {
   color: white;
   text-transform: uppercase;
   overflow: auto; }
-  #header h2 {
+  #header h3 {
     color: white; }
   #header article {
     width: 60%;
     margin: 0 auto; }
     #header article img {
-      width: 500px;
-      max-width: 100%; }
+      width: 39rem;
+      max-width: 100%;
+      margin-top: 8vh; }
 
 .main-nav {
   display: flex;
@@ -380,5 +390,57 @@ hr {
 
 a.ideas {
   border: solid white 2px;
-  box-shadow: 0 12px 10px -10px rgba(0, 0, 0, 0.2);
   margin-left: 25px; }
+
+#what {
+  height: 45vh; }
+  #what h2 {
+    color: #2B576B;
+    text-align: center; }
+  #what #CE {
+    color: #c49f2e; }
+  #what #DT {
+    color: #5d2485; }
+  #what #IT {
+    color: #208a19; }
+  #what #WC {
+    color: #20517d; }
+  #what #quadcolours {
+    font-size: 1.66rem; }
+
+#approach {
+  background-color: #00B099;
+  height: 50vh; }
+  #approach article {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: -20px;
+    text-align: center; }
+  #approach ul {
+    display: flex;
+    margin: 0; }
+  #approach li {
+    list-style: none;
+    margin-right: 40px; }
+  #approach h2 {
+    color: #fff; }
+
+.wrapper .candy {
+  width: 100%;
+  max-width: 355px;
+  margin: 0 4px;
+  float: left; }
+  .wrapper .candy h3 {
+    color: white;
+    text-align: left;
+    margin-top: -20px; }
+  .wrapper .candy h4 {
+    color: white;
+    text-align: left;
+    margin-top: -20px; }
+  .wrapper .candy p {
+    color: white;
+    text-align: left;
+    margin-top: -20px; }
+  .wrapper .candy h2 {
+    text-align: center; }
